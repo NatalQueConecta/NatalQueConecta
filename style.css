@@ -19,12 +19,16 @@ body{
     background-color: var(--fundo);
 }
 header{
-    height: auto;
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 7px;
+    justify-content: center;
+    gap: 45% ;
 }
+.logo{
+    padding-top: 25px;
+}
+
 main{
  display: flex;
  flex-direction: column;
@@ -39,8 +43,8 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5rem;
-    width: 70%;
+    font-size: 30px;
+    width: 1000%;
     font-weight: 600;
 }
 .l1{
@@ -96,6 +100,10 @@ main{
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+}
+.img-galeria img{
+    width: 100px;
+    border-radius: 10px;
 }
 .container-galeria2 {
     display: flex;
