@@ -1,0 +1,135 @@
+:root {
+    --vermelho: #C20000;
+    --verde: #094201;
+    --amarelo: #E6A900;
+    --fundo: #E3CFB0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--fundo);
+}
+
+header {
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    color: inherit;
+}
+
+ul a {
+    color: var(--verde);
+    margin-top: 10px;
+    border: solid 2px var(--verde);
+    border-radius: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav li a {
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    background-color: var(--verde);
+    color: white;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--vermelho);
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: auto;
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #E0D57F;
+    margin-top: 20px;
+}
+
+.simbolo-projeto {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.insta {
+    color: white;
+}
+
+.frase-footer {
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.linha-footer {
+    margin-top: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+}
+
+.linha-footer::before,
+.linha-footer::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--amarelo);
+}
