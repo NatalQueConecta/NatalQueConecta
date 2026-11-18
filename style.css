@@ -41,15 +41,19 @@ ul a{
     margin-top: 10px;
     border: solid 2px var(--verde);
     border-radius: 40px;
-    padding: 8px;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.nav :hover{
+.nav li a {
+    transition: 0.5s;
+}
+ul li a:hover{
     background-color: var(--verde);
     color: white;
     border-radius: 30px;
+    padding: 8px;
 }
 main{
  display: flex;
@@ -66,7 +70,7 @@ main{
     align-items: center;
     flex-direction: column;
     font-size: 30px;
-    width: 1000%;
+    width: 100%;
     font-weight: 600;
 }
 .l1{
