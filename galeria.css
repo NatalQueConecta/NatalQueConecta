@@ -28,6 +28,9 @@ header {
     justify-content: space-between;
     margin-top: 15px;
 }
+.nav-desk{
+    display: none;
+}
 
 .nav {
     display: flex;
@@ -103,7 +106,7 @@ footer {
 .simbolo-projeto {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -138,3 +141,65 @@ footer {
     height: 1px;
     background-color: var(--amarelo);
 }
+@media (min-width: 1024px) {
+
+    .nav {
+        display: none;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+    }
+    header {
+        height: 100px;
+        width: 100%;
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 200px;
+    }
+    .logo{
+        width: 200px;
+        display: block;
+
+    }
+    body>img {
+        width: 100%;
+        height: auto;
+    }
+    .nav-desk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;      
+    }
+    .nav-desk li a {
+        padding: 10px;
+        font-size: 1.4rem;
+        transition: 0.5s;
+    }
+     .nav-desk li a:hover{
+        padding: 15px;
+     }
+      footer {
+        padding: 35px;
+        margin-top: 40px;
+    }
+    .simbolo-projeto {
+        gap: 15px;
+    }
+    .simbolo-projeto h3 {
+        font-size: 1.5rem;
+    }
+    .frase-footer {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .linha-footer {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    }
