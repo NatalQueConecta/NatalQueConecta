@@ -81,9 +81,29 @@ h1{
     text-align: center;
     justify-content: center;
     color: var(--vermelho);
+    font-size: 1.5rem;
+    padding: 12px;
+}
+h1::before,
+h1::after {
+    content: " ";
+    flex: 1;
+    height: 2px;
+    background-color: var(--amarelo);
 }
 
-
+.galeria{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+.galeria img{
+    width: 80%;
+}
 
 
 
@@ -182,6 +202,14 @@ footer {
     }
      .nav-desk li a:hover{
         padding: 15px;
+     }
+     h1{
+        font-size: 2.5rem;
+        padding: 20px;
+        margin-top: 20px;
+     }
+     .galeria{
+        gap: 30px;
      }
       footer {
         padding: 35px;

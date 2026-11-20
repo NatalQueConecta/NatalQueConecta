@@ -8,4 +8,5 @@ Ferramentas utilizadas: HTML e CSS.
 -FlexBox  
 3- Adicionada responsividade para Desktop, medida utilizada 1024px 19/11/2026  
 Ferramentas utilizadas: HTML e CSS.  
-- Flexbox e MediaQuery@
+- Flexbox e MediaQuery@  
+4- Adição das fotos feitas em sala de aula do projeto, na pagina da galeria. 20/11/2026.  
